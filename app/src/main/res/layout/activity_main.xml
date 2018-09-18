@@ -14,17 +14,17 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="279dp"
                 android:layout_margin="10dp"
                 app:cardBackgroundColor="@android:color/darker_gray">
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:orientation="horizontal">
 
                     <LinearLayout
@@ -36,23 +36,26 @@
                         <TextView
                             android:id="@+id/Title1"
                             style="@style/Title"
-                            android:text="Title" />
+                            android:layout_width="wrap_content"
+                            android:text="GRIZZLY" />
 
                         <TextView
                             android:id="@+id/SubTitle1"
                             style="@style/SubTitle"
-                            android:text="SubTitle" />
+                            android:layout_height="wrap_content"
+                            android:text="Voiced by Eric Edelstein" />
 
                         <TextView
                             android:id="@+id/Description1"
                             style="@style/Description"
-                            android:text="Description" />
+                            android:text="Grizzly is the oldest of the brothers. Although he is the charismatic, jovial, and a highly motivated leader, Grizzly is not the brightest bear in the bunch.  But what he lacks in common sense he makes up for with pure energy and excitement which leads the Bears into endless comedic complications."
+                            android:textSize="12sp" />
                     </LinearLayout>
 
                     <ImageView
                         android:id="@+id/imageView4"
                         android:layout_width="wrap_content"
-                        android:layout_height="149dp"
+                        android:layout_height="match_parent"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/grizzly" />
 
@@ -61,41 +64,42 @@
 
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="280dp"
                 android:layout_margin="10dp"
                 app:cardBackgroundColor="@android:color/darker_gray">
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="280dp"
                     android:orientation="horizontal">
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="280dp"
                         android:layout_weight="1"
                         android:orientation="vertical">
 
                         <TextView
                             android:id="@+id/Title2"
                             style="@style/Title"
-                            android:text="Title" />
+                            android:text="ICE BEAR" />
 
                         <TextView
                             android:id="@+id/SubTitle2"
                             style="@style/SubTitle"
-                            android:text="SubTitle" />
+                            android:text="Voiced by Demetri Martin" />
 
                         <TextView
                             android:id="@+id/Description2"
                             style="@style/Description"
-                            android:text="Description" />
+                            android:text="The youngest in the family, Ice Bear is a bear of few words. He’s a bit odd and outwardly eccentric – after all, he refers to himself in the third person and sleeps in a refrigerator. But don’t underestimate him: skilled in a plethora of unknown talents, Ice Bear is a hidden savant and jack-of-all-trades."
+                            android:textSize="12sp" />
                     </LinearLayout>
 
                     <ImageView
                         android:id="@+id/imageView5"
                         android:layout_width="wrap_content"
-                        android:layout_height="149dp"
+                        android:layout_height="256dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/ice" />
 
@@ -104,41 +108,42 @@
 
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="245dp"
                 android:layout_margin="10dp"
                 app:cardBackgroundColor="@android:color/darker_gray">
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="242dp"
                     android:orientation="horizontal">
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="237dp"
                         android:layout_weight="1"
                         android:orientation="vertical">
 
                         <TextView
                             android:id="@+id/Title3"
                             style="@style/Title"
-                            android:text="Title" />
+                            android:text="PANDA" />
 
                         <TextView
                             android:id="@+id/SubTitle3"
                             style="@style/SubTitle"
-                            android:text="SubTitle" />
+                            android:text="Voiced by Bobby Moynihan" />
 
                         <TextView
                             android:id="@+id/Description3"
                             style="@style/Description"
-                            android:text="Description" />
+                            android:text="Panda loves pop culture and his smart phone. Like many middle children, he’s sensitive and a romantic. He'd really love a girlfriend, but most of his attempts have been utter failures. Luckily, his brothers are always there to lift him back up. "
+                            android:textSize="12sp" />
                     </LinearLayout>
 
                     <ImageView
                         android:id="@+id/imageView6"
                         android:layout_width="wrap_content"
-                        android:layout_height="149dp"
+                        android:layout_height="match_parent"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/panda" />
 
